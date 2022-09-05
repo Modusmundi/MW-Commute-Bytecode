@@ -17,6 +17,8 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no       # Enable keyboard RGB underglow
 
 ENCODER_ENABLE = yes        # Enable rotary encoder support
-OLED_ENABLE = no           # Enable OLED support
+OLED_ENABLE = yes           # Enable OLED support
 
 LTO_ENABLE = yes            # Enable Link Time Optimization to reduce firmware size
+NO_DEBUG = yes
+NO_PRINT = yes
